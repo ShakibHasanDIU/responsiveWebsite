@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------------------Navbar section of css--------------------------------------- */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.logo{
+    margin: 4px 20px 0 0;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    /* background-color: rgb(95, 31, 31); */
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.nav-list li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 18px;
+    /* background-color: rgb(95, 31, 31); */
+}
+
+.rightNav input{
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(226, 147, 147);
+}
+
+.btn-sm, .btn{
+    border-radius: 6px;
+    padding: 3px 20px;
+    font-size: 14px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-sm:hover, .btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(20, 20, 20);
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+/* ------------------------------------This is body section---------------------------------------  */
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 70vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.firstHalf{
+    width: 70%;
+    color: white;
+    margin: 10px;
+    text-align: justify;
+}
+
+.text-big{
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-small{
+    padding: 16px 10px;
+}
+
+.button{
+    text-align: center;
+    padding: 3px;
+}
+
+.btn{
+    margin: 0 3px;
+}
+
+.secondHalf{
+    width: 30%;
+    text-align: center;
+}
+
+.secondHalf img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 30px
+}
+
+.sectionRight{
+    display: flex;
+    margin: 30px auto;
+    padding: 15px 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(243, 205, 205);
+}
+
+.paras{
+    width: 70%;
+    text-align: justify;
+}
+
+.sectionTag{
+    font-size: 30px;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.sectionSubTag{
+    font-size: 16px;
+}
+
+.thumbnail{
+    width: 30%;
+    text-align: center;
+}
+
+.thumbnail img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 30px
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
+/* ----------------------------------------contact section------------------------------------------- */
+
+.contact{
+    height: auto;
+    background-color: rgb(18, 24, 37);
+}
+
+.contact-text{
+    text-align: center;
+    font-size: 30px;
+    padding: 6px 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form input, textarea{
+    width: 25%;
+    padding: 3px 6px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 2px solid rgb(18, 24, 37);
+    border-bottom: 2px solid rgb(173, 55, 241);
+    border-radius: 7px;
+    outline: none;
+    background: none;
+    color: white;
+}
+.footer{
+    padding: 3px 0;
+    background: rgb(18, 24, 37);
+    text-align: center;
+}
+
+.footerText{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+/* ---------------------------------------------------------media Queries------------------------------------------------------------- */
+

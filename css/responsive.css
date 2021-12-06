@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1010px) {
+    .nav-list{
+        padding-top: 10px;
+        flex-direction: column;
+        width: 50%;
+    }
+    .logo{
+        margin: auto;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 450px;
+        transition: all 0.5s ease-out;
+        background: rgb(18, 24, 37);
+    }
+    .rightNav{
+        width: 50%;
+        text-align: center;
+    }
+    .rightNav input{
+        display: block;
+        margin: 5px auto;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 65px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .firstSection{
+        height: auto;
+    }
+    .secondHalf{
+        width: 100%;
+    }
+    .sectionRight{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .thumbnail{
+        width: 100%;
+    }
+    .contact{
+        height: auto;
+    }
+    .form{
+        margin: 0 0;
+    }
+    .footerText{
+        font-size: 12px;
+    }
+}
